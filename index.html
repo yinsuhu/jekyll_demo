@@ -2,7 +2,7 @@
 layout: default
 title: Yinsuhu's Blog
 ---
-<div style="margin:auto">
+<center>
 <h2>{{ page.title }}</h2>
 <p>最新文章</p>
 <ul>
@@ -10,4 +10,4 @@ title: Yinsuhu's Blog
 <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
-</div>
+</center>
